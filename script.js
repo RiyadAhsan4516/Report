@@ -68,6 +68,8 @@ function formatData() {
     for (let i = 0; i < totalemployees; i++) {
         idObj[i + 1] = 0;
     }
+
+
     // let dateObj = {};
     for (let i = 0; i < datafixed.length; i++) {
         const date = datafixed[i].date;
@@ -222,6 +224,10 @@ function timeFormatter(val){
     val = `${val}`
     return val.replace(".", ":");
 }
+
+
+
+
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------
 // FORMAT HTML TABLES
