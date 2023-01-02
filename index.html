@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report</title>
+</head>
+<style>
+    table, th, td {
+        border:1px solid black;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+</style>
+<body style="padding-left: 15rem">
+<h2 class="totalDays"></h2>
+<table style="width:80%" class="datelists">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>PRESENT DAYS</th>
+        <th>LATE DAYS</th>
+        <th>MISSED DAYS</th>
+        <th>EARLY LEAVE DAYS</th>
+        <th>MISSED LUNCH DAYS</th>
+        <th>TOTAL WORKING HOURS</th>
+        <th>DAILY AVERAGE LUNCH DURATION</th>
+        <th>TOTAL NUMBER OF LUNCHES TAKEN</th>
+        <th>DAILY AVERAGE WORKING HOURS</th>
+    </tr>
+    </thead>
+    <tbody class="tdate"></tbody>
+</table>
+<h2>DAILY LOG:</h2>
+<table style="width:80%" >
+    <thead>
+    <tr>
+        <th>DATE</th>
+        <th>ID</th>
+        <th>CHECK IN</th>
+        <th>CHECK OUT</th>
+    </tr>
+    </thead>
+    <tbody class="dailylists"></tbody>
+</table>
+<script src="script.js" type="module"></script>
+</body>
+</html>
