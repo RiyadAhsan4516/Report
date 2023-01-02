@@ -69,8 +69,6 @@ function formatData() {
         idObj[i + 1] = 0;
     }
 
-
-
     // let dateObj = {};
     for (let i = 0; i < datafixed.length; i++) {
         const date = datafixed[i].date;
