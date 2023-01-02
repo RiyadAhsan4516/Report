@@ -70,6 +70,8 @@ function formatData() {
     }
 
 
+
+
     // let dateObj = {};
     for (let i = 0; i < datafixed.length; i++) {
         const date = datafixed[i].date;
